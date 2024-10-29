@@ -10,7 +10,7 @@ dotenv.config();
 // Crear una instancia de Express
 const app = express();
 app.use(cors());
-const port = 3000;
+const port = process.env.PORT;
 
 // Configurar la conexión a la base de datos PostgreSQL
 const pool = new Pool({
