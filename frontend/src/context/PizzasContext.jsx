@@ -9,7 +9,7 @@ const PizzaProvider = ({children})=>{
      
     // llamar al api
     const getDatos = async()=>{
-        const datos =await fetch('http://localhost:3000/pizzas')
+        const datos =await fetch('http://localhost:5000/pizzas')
         const losDatos = await datos.json()
         setPizzas(losDatos)
         // console.log(losDatos)
