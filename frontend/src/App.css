@@ -1,0 +1,25 @@
+.isActive{
+  color: rgb(255, 238, 0);
+  text-decoration: none;
+  font-weight: 900;
+  font-size: large;
+}
+.noActive{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 900;
+  font-size:large;
+}
+.estiloHo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 3%;
+
+  background: linear-gradient(rgba(18, 24, 37, 0.75), rgba(18, 24, 37, 0.75)),
+  url('https://img.freepik.com/foto-gratis/vista-superior-comida-deliciosa-espacio-copiar_23-2150873986.jpg?w=826&t=st=1716432689~exp=1716433289~hmac=aac02303d70a44f6d4b7dc05b1105a7d6ed19d4145b2cdf06db9f303bf479265') 
+  no-repeat center fixed;
+  background-size: cover;
+}
