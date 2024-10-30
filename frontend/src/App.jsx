@@ -3,6 +3,7 @@ import Home from "./views/Home";
 import Pizza from "./components/Pizza";
 import Carrito from "./views/Carrito";
 import NavBar from "./components/NavBar";
+import PizzaCRUD from "./components/PizzaCRUD";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PizzaProvider from "./context/PizzasContext";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,7 +18,7 @@ const App = () => {
 
           <Routes>
             <Route path="/" element={<Home />} />
-           
+            <Route path="/PizzaCRUD" element={<PizzaCRUD />} />
             <Route path="/Pizza/:id" element={<Pizza />} />
             <Route path="/Carrito" element={<Carrito />} />
           </Routes>

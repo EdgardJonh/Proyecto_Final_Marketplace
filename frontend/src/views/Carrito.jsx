@@ -9,7 +9,7 @@ const Carrito = () => {
      <>
      <div className='container'>
         <div className='row'>
-          <div className="col-12">
+          <div className="col-12 " style={{marginTop:'10%'}}>
               {/* lista de las pizzass */}
               <p>Detalles Carrito:</p>
               {carrito && 

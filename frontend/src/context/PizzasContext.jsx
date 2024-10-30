@@ -11,7 +11,7 @@ const PizzaProvider = ({ children }) => {
     // Llamar al API usando Axios
     const getDatos = async () => {
         try {
-            const { data } = await axios.get('http://localhost:5000/pizzas');
+            const { data } = await axios.get('http://localhost:5000/api/pizzas');
             setPizzas(data);
         } catch (error) {
             console.error("Error al obtener los datos de las pizzas:", error);
